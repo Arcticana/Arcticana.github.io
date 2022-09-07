@@ -1,0 +1,119 @@
+#bonuspanel .bestOfferMea .title {
+  padding: 16px;
+  font-size: 14px
+}
+
+#bonuspanel .bestOfferMea .body {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 29px;
+  margin-bottom: 16px;
+}
+
+#bonuspanel .bestOfferMea .shopCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 301px;
+  height: 109px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  margin: auto;
+}
+
+#bonuspanel .bestOfferMea .shopCard:focus-visible {
+  box-shadow: 0 0 0 3px #00A3FF;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopLogoContainer {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    padding: 3px;
+    box-sizing: border-box;
+    display: flex;
+  }
+  
+#bonuspanel .bestOfferMea .shopCard .shopLogo {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+  
+  #bonuspanel .bestOfferMea .shopCard .shopCardRow1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 16px 0 16px;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopCardCol1 {
+  display: flex;
+  column-gap: 6px;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopCardRow2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    background: #FF756E;
+    color: #FFFFFF;
+    height: 37px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+#bonuspanel .bestOfferMea .shopCard .shopLabels {
+  text-align: left;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopName {
+  color: #0E305B;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopDomain {
+  color: #FF756E;
+  font-size: 12px;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopName,
+#bonuspanel .bestOfferMea .shopCard .shopDomain {
+  max-width: 136px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+#bonuspanel .bestOfferMea .shopCard .shopLink {
+  color: #FF756E;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopCardBonus {
+  display: flex;
+  align-items: center;
+  column-gap: 3px;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopCardBonusLabel {
+  font-weight: bold;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopCardBonusStrike {
+  text-decoration: line-through;
+  font-weight: normal;
+}
+
+#bonuspanel .bestOfferMea .shopCard .shopCardBonusImg {
+  width: 16px;
+  height: 16px;
+}
